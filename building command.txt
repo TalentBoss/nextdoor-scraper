@@ -1,0 +1,1 @@
+pyinstaller --onefile --hidden-import=sv_ttk --hidden-import=tkinter --hidden-import=requests --collect-data sv_ttk -w .\nextdoor_scraper.py
